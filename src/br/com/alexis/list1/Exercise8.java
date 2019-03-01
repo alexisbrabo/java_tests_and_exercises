@@ -13,7 +13,8 @@ public class Exercise8 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Type the Celsius degree:");
 		double fahrenheitDegree = scanner.nextDouble();
-		System.out.printf("This Fahrenheit degreee corresponds to %.2f Celsius degrees %n", ((fahrenheitDegree - 32) * 5 / 9));
+		System.out.printf("This Fahrenheit degreee corresponds to %.2f Celsius degrees %n",
+				((fahrenheitDegree - 32) * 5 / 9));
 		scanner.close();
 	}
 }
