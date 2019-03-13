@@ -11,7 +11,7 @@ public class Exercise10 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in, "UTF-8");
 		System.out.println("Cigars Smoked per day:");
 		double cigarsSmoked = scanner.nextDouble();
 		System.out.println("Years Smoking:");

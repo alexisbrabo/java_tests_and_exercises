@@ -10,7 +10,7 @@ public class Exercise9 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in, "UTF-8");
 		System.out.println("Type percorred Kms:");
 		double percorredKm = scanner.nextDouble();
 		System.out.println("Type the rent days:");

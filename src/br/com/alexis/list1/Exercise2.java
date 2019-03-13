@@ -9,7 +9,7 @@ public class Exercise2 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in, "UTF-8");
 		System.out.println("Type the value in milimeters:");
 		double mm = scanner.nextDouble();
 		System.out.printf("The values corresponds to %.2f meters %n", (mm * 1000));

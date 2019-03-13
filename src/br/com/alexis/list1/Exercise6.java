@@ -10,7 +10,7 @@ public class Exercise6 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in, "UTF-8");
 		System.out.println("Type the distance in km:");
 		double distance = scanner.nextDouble();
 		System.out.println("Type the average speed in KM/H:");

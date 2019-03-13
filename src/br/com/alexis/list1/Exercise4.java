@@ -10,7 +10,7 @@ public class Exercise4 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in, "UTF-8");
 		System.out.println("Type the salary:");
 		double salary = scanner.nextDouble();
 		System.out.println("Type the raise in percentage:");

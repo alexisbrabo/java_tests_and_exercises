@@ -10,7 +10,7 @@ public class Exercise7 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in, "UTF-8");
 		System.out.println("Type the Celsius degree:");
 		double celsiusDegree = scanner.nextDouble();
 		System.out.printf("This Celsius degreee corresponds to %.2f Fahrenheit degrees %n", (9 * celsiusDegree / 5 + 32));

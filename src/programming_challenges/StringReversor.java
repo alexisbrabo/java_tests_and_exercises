@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
  *
  * @author alexisbrabo
  */
-public class stringReversor {
+public class StringReversor {
 
     public static void main(String[] args) {
         String s = JOptionPane.showInputDialog("Digite a palavra a ser revertida:");

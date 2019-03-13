@@ -9,7 +9,7 @@ public class Exercise1 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in, "UTF-8");
 		System.out.println("Type the first number:");
 		int number1 = scanner.nextInt();
 		System.out.println("Type the second number");

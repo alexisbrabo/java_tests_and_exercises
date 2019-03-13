@@ -10,7 +10,7 @@ public class Exercise3 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in, "UTF-8");
 		System.out.println("Type the days:");
 		int days = scanner.nextInt();
 		System.out.println("Type the hours:");
